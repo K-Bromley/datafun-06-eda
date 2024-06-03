@@ -18,6 +18,11 @@ python3 -m pip install jupyterlab pandas pyarrow matplotlib seaborn
 python3 -m pip freeze > requirements.txt
 ```
 
+## Data Set
+```bash
+df = sns.load_dataset('mpg')
+```
+
 ## Git Commands
 ``` bash
 git add .
