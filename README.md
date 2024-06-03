@@ -1,6 +1,8 @@
 # datafun-06-eda
 #### This Read Me file contains the information and instructions related to Project 6 EDA
 
+[mpg.csv](https://github.com/mwaskom/seaborn-data/blob/master/mpg.csv)
+
 ## Instructions for cloning Repo to computer
 ```bash
 git clone https://github.com/K-Bromley/datafun-06-eda
@@ -18,9 +20,8 @@ python3 -m pip install jupyterlab pandas pyarrow matplotlib seaborn
 python3 -m pip freeze > requirements.txt
 ```
 
-## Data Set
+## Data Set Load
 ```bash
-[mpg.csv](https://github.com/mwaskom/seaborn-data/blob/master/mpg.csv)
 df = sns.load_dataset('mpg')
 ```
 
