@@ -1,6 +1,7 @@
 # datafun-06-eda
 #### This Read Me file contains the information and instructions related to Project 6 EDA
 
+## Link to Data File Location
 [mpg.csv](https://github.com/mwaskom/seaborn-data/blob/master/mpg.csv)
 
 ## Instructions for cloning Repo to computer
