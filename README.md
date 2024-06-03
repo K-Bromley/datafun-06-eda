@@ -20,7 +20,7 @@ python3 -m pip freeze > requirements.txt
 
 ## Data Set
 ```bash
-https://github.com/mwaskom/seaborn-data/blob/master/mpg.csv
+[mpg.csv](https://github.com/mwaskom/seaborn-data/blob/master/mpg.csv)
 df = sns.load_dataset('mpg')
 ```
 
