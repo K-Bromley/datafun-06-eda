@@ -5,29 +5,38 @@
 [mpg.csv](https://github.com/mwaskom/seaborn-data/blob/master/mpg.csv)
 
 ## Instructions for cloning Repo to computer
-```bash
+```zsh
 git clone https://github.com/K-Bromley/datafun-06-eda
 ```
 
 ## Instructions for Setting up Virtual Environment
-``` bash
+``` zsh
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
 ## Installing dependencies and freezing requirements
-```bash
+```zsh
 python3 -m pip install jupyterlab pandas pyarrow matplotlib seaborn
 python3 -m pip freeze > requirements.txt
 ```
 
 ## Data Set Load
-```bash
+```python
 df = sns.load_dataset('mpg')
 ```
 
+## Plots Used
+```python
+df[].hist()
+sns.countplot
+sns.pairplot
+sns.barplot
+sns.scatterplot
+```
+
 ## Git Commands
-``` bash
+``` zsh
 git add .
 git commit -m ""
 git push origin main
